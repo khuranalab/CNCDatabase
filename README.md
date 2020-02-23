@@ -1,2 +1,3 @@
 # CNCDatabase
-cornell non-coding cancer driver database
+
+Manuscript in preparation

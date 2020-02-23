@@ -1,0 +1,88 @@
+.blockquote {
+    padding: .5rem 1rem;
+    border-left: .5rem solid #eceeef;
+}
+
+hr.style1 {
+    border: none;
+    height: 8px;
+    width: 70px;
+    margin-left: 0px;
+    /*background: #CF4561;*/
+    background: #B31A1A;
+}
+
+.iconButton {
+    background-color: Transparent;
+    padding: 1px 6px;
+    /*background-color: red;*/
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    /*border-radius: 50px;*/
+}
+
+
+
+/*
+  remove focus outline
+  https://medium.com/hackernoon/removing-that-ugly-focus-ring-and-keeping-it-too-6c8727fefcd2
+*/
+
+
+button:focus,
+select:focus {
+  outline: none;
+}
+
+
+
+/*
+   -- simple vertical timeline -- Start
+   https://bootsnipp.com/snippets/xrKXW
+
+
+*/
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #22c0e8;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+/*
+   -- simple vertical timeline -- End
+   https://bootsnipp.com/snippets/xrKXW
+
+*/
+
+svg {
+    overflow: visible;
+}
