@@ -30,7 +30,8 @@
     "passport-local": "^1.0.0",
     "pg": "^7.9.0",
     "pg-promise": "^8.6.4",
+    "property-expr": "^2.0.4",
     "uuid": "^3.3.2",
-    "yup": "^0.27.0"
+    "yup": "^0.32.9"
   }
 }
