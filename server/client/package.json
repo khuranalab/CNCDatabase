@@ -19,7 +19,7 @@
     "enzyme": "^3.0.0",
     "formik": "^1.5.4",
     "http-proxy-middleware": "^0.19.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "lodash": "^4.17.21",
     "material-ui": "^1.0.0-beta.30",
     "material-ui-icons": "^1.0.0-beta.17",
