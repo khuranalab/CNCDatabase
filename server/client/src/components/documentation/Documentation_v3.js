@@ -41,6 +41,20 @@ class Documentation extends Component {
                           driver lists from publications and to complement the understanding
                            of cancer beyond protein coding regions.</p>
                     <br/>
+	            <h4><strong>Current CNCDatabase Version?</strong></h4>
+                    <hr/>
+                    <p>The current CNCDatabase Version is 1.2<strong>Release date: 31/01/2022</strong></p>
+                    <p>What has been added to this version?</p>
+                       <ul>
+                        <li>2 latest non-coding studies from 2 publications were curated and added</li>
+                        <ul>
+                          <li>Liu Y, Li C, Shen S, et al and Cornish AJ, Hoang PH, Dobbins SE, et al</li>
+                          <li>Information such non-coding cancer driver lists, functional elements and among other entries were collected and added</li>
+                        </ul>
+                        <li>Updated required packages to newer and more stable versions</li>
+                        <li>Updated Documentation page of CNCDatabase client frontend site to include version number and other relevant details</li>
+                       </ul>
+                    <br/>
                     <h4><strong>How do I cite the CNCDatabase?</strong></h4>
                     <hr/>
                     <p>Please cite Liu et al, CNCDatabase: Cornell Non-coding Cancer driver database (2020)</p>
