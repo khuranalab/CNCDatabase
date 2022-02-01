@@ -7,3 +7,6 @@
   - Information such non-coding cancer driver lists, functional elements and among other entries were collected and added
 - Updated required packages to newer and more stable versions
 - Updated Documentation page of CNCDatabase client frontend site to include version number and other relevant  details
+- Added new release of data cncDatabase
+- Updated PostgreSQL database content and list of publications files under Download tab
+- Placed the right Database schema design file under Download tab
